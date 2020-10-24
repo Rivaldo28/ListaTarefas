@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/@fortawesome/fontawesome-free/js/all.min.js",
+              "./node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Listares"
+    }
+  },
+  "defaultProject": "Listares",
+  "cli": {
+    "analytics": "56762f93-6609-4ce9-aa45-f05883cc1c07"
+  }
 }
